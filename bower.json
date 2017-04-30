@@ -12,6 +12,11 @@
   "appPath": "app",
   "moduleName": "wiredepTestApp",
   "overrides": {
+    "angular": {
+      "dependencies": {
+        "jquery": "3.2.1"
+      }
+    },
     "bootstrap": {
       "main": [
         "less/bootstrap.less",
