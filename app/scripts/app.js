@@ -9,4 +9,4 @@
  * Main module of the application.
  */
 angular
-    .module('wiredepTestApp', []);
+    .module('wiredepTestApp', ['bootstrap.angular.validation']);
